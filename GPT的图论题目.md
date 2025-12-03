@@ -42,11 +42,11 @@
 
 1. **207. 课程表 / Course Schedule（中）**
    - 判断是否有环：拓扑排序模板（BFS/Kahn 或 DFS 检测环皆可）。
-2. **210. 课程表 II / Course Schedule II（中）**
+   - **210. 课程表 II / Course Schedule II（中）**
    - 在 207 基础上输出拓扑序，继续稳固拓扑排序模板。
-3. **802. 找到最终的安全状态 / Find Eventual Safe States（中）**
+2. **802. 找到最终的安全状态 / Find Eventual Safe States（中）**
    - 反图 + 拓扑排序 / DFS 反向标记，体会“从出度为 0 的点反推”的思路。
-4. **310. 最小高度树 / Minimum Height Trees（中）**
+3. **310. 最小高度树 / Minimum Height Trees（中）**
    - 树上“从叶子往中间一层层剥皮”的 BFS，拓展你对 BFS 目的的理解。
 
 ------
