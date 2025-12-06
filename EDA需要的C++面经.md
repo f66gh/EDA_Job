@@ -139,7 +139,6 @@
   - **lambda 本质是一个对象**（这个对象的类型叫闭包类型）
   - `[capture](params){ body }`
   - **实战**：`std::sort` 自定义排序规则时必用（例如按 Net 的延时大小排序）。
-
 - 函数指针和Lambda表达式的关系——只有不捕获任何东西的 lambda 才能隐式转换为函数指针
   - 在回调函数中的应用
 
@@ -175,6 +174,11 @@
 
 
 - 【⭐必会】`std::sort`（快排+堆排混合）、`std::reverse`
+  - 迭代器（写 C++ 的面试很常被问）：
+    - **随机访问（RandomAccessIterator）**
+    - **双向（BidirectionalIterator）**
+    - **前向（ForwardIterator）**
+
 - 【★较重要】`std::lower_bound` / `std::upper_bound`：在有序数组中二分查找（STA 查表插值计算 Delay 时常用）。
 
 ------
